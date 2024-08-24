@@ -5,7 +5,7 @@ import re
 # Database configuration
 db_config = {
     'user': 'root',
-    'password': 'Password',
+    'password': '####',
     'host': 'localhost',
     'database': 'library'
 }
