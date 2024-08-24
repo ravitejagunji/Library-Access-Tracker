@@ -146,7 +146,7 @@ def main():
             break
         
         roll_number = input("Enter roll number: ").strip().upper()
-        if not re.match(r'^\d{2}[A-Z]{2}\d{4}$', roll_number):  # Updated pattern
+        if not re.match(r'^\d{2}[A-Z]{2}0\d{3}$', roll_number):  # Updated pattern
             print("Invalid roll number format.")
             continue
         
